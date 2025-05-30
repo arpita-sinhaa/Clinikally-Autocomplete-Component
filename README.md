@@ -1,25 +1,21 @@
 # Clinikally Autocomplete Component
 
-This is an autocomplete input component built with React + TypeScript + Vite as part of the Clinikally internship assignment.
+This is a responsive autocomplete input component built with React + TypeScript + Vite, created as part of the Clinikally internship assignment.
 
-## Features
+##  Features
 
 - Debounced search input
-- Fetches product suggestions from a public API
-- Pagination with "Load More"
-- Error handling and loading states
+- Product suggestions fetched from a public API
+- "Load More" pagination
+- Loading and error states
+- "No products found" message
 
-## Tech Stack
+## Thought Process
 
-- React
-- TypeScript
-- Vite
+The goal was to build a clean, intuitive component that feels fast and user-friendly. I focused on keeping the UI minimal, handling edge cases like loading states and empty results, and ensuring smooth UX with debouncing and pagination.
 
-## Getting Started
-
-Install dependencies:
-
-```bash
+## Setup Instructions
 npm install
+npm run dev
 
-```
+
